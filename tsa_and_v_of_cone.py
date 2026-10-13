@@ -21,13 +21,13 @@ def main():
     v_height = float(input("Enter the vertical height of the cone (cm): "))
 
     # calculate the slanted height based on user input
-    s_height = math.sqrt(radius**2 + v_height**2)
+    s_height = math.sqrt(radius ** 2 + v_height ** 2)
 
     # calculate the area of the cone
-    total_surface_area = (math.pi * radius**2) + (math.pi * radius * s_height)
+    total_surface_area = (math.pi * radius ** 2) + (math.pi * radius * s_height)
 
     # calculate the volume of the cone
-    volume = 1 / 3 * math.pi * radius**2 * v_height
+    volume = 1 / 3 * math.pi * radius ** 2 * v_height
 
     # display the area and volume of the cone
     print(
